@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.start {
+    width: 1366px;
+    min-height: 100vh;
+    background: url(download.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;  */
+}
+
+h1 {
+    display: inline-flex;
+    position: relative;
+    right: 335px;
+    top: 142px;
+    font-size: 55px;
+    font-family: monospace;
+    font-style: oblique;
+    color: #474543;
+}
+h3{
+    font-size: 30px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 35px;
+    font-family: monospace;
+    text-shadow: 10px 5px 4px black;
+}
+.go {
+    width: 415px;
+    height: 370px;
+    border-radius: 76px;
+    border: 5px solid whitesmoke;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img {
+    width: 210px;
+    height: 205px;
+    border-radius: 45px;
+    position: relative;
+    top: -35px;
+    border: 5px solid;
+    box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+}
+.range-bar input {
+    position: relative;
+    bottom: 20px;
+    width: 325px;
+}
+button {
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    padding: 15px;
+    background-color: transparent;
+    border-style: none;
+}
+i {
+    font-size: 25px;
+    position: relative;
+    bottom: 0px;
+}
+@media only screen and (max-width: 455px) {
+    /* .start {
+        width: 1366px;
+        min-height: 299vh;
+        background: url(download.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    } */
+    .start {
+        width: 1366px;
+        min-height: 365vh;
+        background: url(download.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+    .go {
+        width: 911px;
+        height: 1290px;
+        border-radius: 76px;
+        border: 5px solid whitesmoke;
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    img {
+        width: 810px;
+        height: 870px;
+        border-radius: 45px;
+        position: relative;
+        top: -35px;
+        border: 5px solid;
+        box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+    }
+    h3 {
+        font-size: 85px;
+        color: whitesmoke;
+        position: relative;
+        bottom: 30px;
+        font-family: monospace;
+        text-shadow: 10px 5px 4px black;
+    }
+    .range-bar input {
+        position: relative;
+        bottom: 20px;
+        width: 710px;
+        padding: 40px;
+    }
+    button {
+        position: relative;
+        bottom: 55px;
+        left: 10px;
+        padding: 65px;
+        background-color: transparent;
+        border-style: none;
+    }
+    i{
+        font-size: 70px;
+    }
+}
+    
+    @media only screen and (max-width: 375px) {
+        .start {
+            width: 1366px;
+            min-height: 365vh;
+            background: url(download.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex ;
+            justify-content: center;
+            align-items: center;
+        }
+        .go {
+            width: 911px;
+            height: 1290px;
+            border-radius: 76px;
+            border: 5px solid whitesmoke;
+            backdrop-filter: blur(5px);
+            box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        img {
+            width: 810px;
+            height: 870px;
+            border-radius: 45px;
+            position: relative;
+            top: -35px;
+            border: 5px solid;
+            box-shadow: 0px 0px 28px 1px rgb(84, 84, 84);
+        }
+        h3 {
+            font-size: 85px;
+            color: whitesmoke;
+            position: relative;
+            bottom: 30px;
+            font-family: monospace;
+            text-shadow: 10px 5px 4px black;
+        }
+        .range-bar input {
+            position: relative;
+            bottom: 20px;
+            width: 710px;
+            padding: 40px;
+        }
+        button {
+            position: relative;
+            bottom: 55px;
+            left: 10px;
+            padding: 65px;
+            background-color: transparent;
+            border-style: none;
+        }
+        i{
+            font-size: 70px;
+        }
+    }

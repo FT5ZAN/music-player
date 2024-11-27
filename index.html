@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="start">
+        <div class="go">
+            <h1>RELAX<i class="fa-solid fa-cloud-moon"></i></h1>
+            <div class="m-imgs">
+                <img id="music-img" src="download (1).jpeg" alt="Error">
+            </div>
+            <div class="m-name">
+                <h3>Snow Falls</h3>
+            </div>
+            <div class="range-bar">
+                <input type="range" id="range" value="0" max="100">
+            </div>
+            <div class="controls">
+                <button id="prev" title="Previous">
+                    <div class="icon"><i class="fa-solid fa-backward"></i></div>
+                </button>
+                <button id="play-pause" title="Play/Pause">
+                    <div class="icon"><i class="fa-solid fa-play" id="play"></i></div>
+                    <div class="icon"><i class="fa-solid fa-pause" id="pause"></i></div>
+                </button>
+                <button id="next" title="Next">
+                    <div class="icon"><i class="fa-solid fa-forward"></i></div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="back.js"></script>
+
+</html>
